@@ -36,6 +36,7 @@ function createAndAppendSearchResult(result) {
     let descriptionEl = document.createElement("p");
     descriptionEl.textContent = description;
     resultItemEl.appendChild(descriptionEl);
+    console.log("hello world")
 }
 
 function displayResult(searchResults) {
